@@ -50,19 +50,19 @@ ________________________________________
 		o	Cantitate: INT - Cantitatea de servicii oferite in cadrul consultatiei
 Relatiile dintre tabele
 1.	Relatia dintre Pacienti si Consultatii: 1 la N
-	Fiecare pacient poate avea mai multe consultatii, dar o consultatie este asociata cu un singur pacient.
+		Fiecare pacient poate avea mai multe consultatii, dar o consultatie este asociata cu un singur pacient.
 2.	Relatia dintre Medici si Consultatii: 1 la N
-	Fiecare medic poate efectua mai multe consultatii, dar fiecare consultatie este realizata de un singur medic.
+		Fiecare medic poate efectua mai multe consultatii, dar fiecare consultatie este realizata de un singur medic.
 3.	Relatia dintre Specialitati si Medici: 1 la N
-	O specialitate medicala poate fi practicata de mai multi medici, dar un medic are o singura specialitate.
+		O specialitate medicala poate fi practicata de mai multi medici, dar un medic are o singura specialitate.
 4.	Relatia dintre Consultatii si Servicii_Medicale prin ConsultatieServicii: N la N
-	O consultatie poate include mai multe servicii medicale, iar un serviciu medical poate fi oferit in cadrul mai multor consultatii. Tabelul de legatura Consultatie_Servicii gestioneaza relatia dintre aceste tabele.
+		O consultatie poate include mai multe servicii medicale, iar un serviciu medical poate fi oferit in cadrul mai multor consultatii. Tabelul de legatura Consultatie_Servicii gestioneaza relatia dintre aceste tabele.
 4.	Constrangerile de integritate
-	Pentru a mentine integritatea bazei de date, au fost impuse urmatoarele constrangeri:
-		•	Chei primare unice pentru fiecare tabel.
-		•	Chei externe pentru a lega inregistrarile intre tabele (ex. PacientID in Consultatii este cheie externa).
-		•	Constrangeri CHECK pentru validarea datelor (ex. DataConsultatie sa nu fie in trecut exagerat).
-		•	Constrangeri NOT NULL pentru a asigura completarea campurilor esentiale.
+		Pentru a mentine integritatea bazei de date, au fost impuse urmatoarele constrangeri:
+			•	Chei primare unice pentru fiecare tabel.
+			•	Chei externe pentru a lega inregistrarile intre tabele (ex. PacientID in Consultatii este cheie externa).
+			•	Constrangeri CHECK pentru validarea datelor (ex. DataConsultatie sa nu fie in trecut exagerat).
+			•	Constrangeri NOT NULL pentru a asigura completarea campurilor esentiale.
 
 5.	Functionarea aplicatiei
 		Aplicatia include o interfata grafica dezvoltata in Python folosind Tkinter. Functionalitatile sunt structurate astfel:
