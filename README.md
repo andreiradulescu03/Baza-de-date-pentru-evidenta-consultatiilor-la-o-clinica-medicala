@@ -65,25 +65,25 @@ Relatiile dintre tabele
 			•	Constrangeri NOT NULL pentru a asigura completarea campurilor esentiale.
 
 5.	Functionarea aplicatiei
-	Aplicatia include o interfata grafica dezvoltata in Python folosind Tkinter. Functionalitatile sunt structurate astfel:
-		•	Meniul principal ofera acces la fiecare tabel si la interogarile predefinite.
-		•	Functionalitatile Adauga, Sterge si Actualizeaza sunt disponibile pentru fiecare tabel.
-		•	Interogarile sunt organizate in doua categorii: Simple si Complexe. De asemenea, aplicatia include un sistem de autentificare pentru utilizatori, cu validarea username-ului si parolei.
+		Aplicatia include o interfata grafica dezvoltata in Python folosind Tkinter. Functionalitatile sunt structurate astfel:
+			•	Meniul principal ofera acces la fiecare tabel si la interogarile predefinite.
+			•	Functionalitatile Adauga, Sterge si Actualizeaza sunt disponibile pentru fiecare tabel.
+			•	Interogarile sunt organizate in doua categorii: Simple si Complexe. De asemenea, aplicatia include un sistem de autentificare pentru utilizatori, cu validarea username-ului si parolei.
 
 6.	Interogari simple
-	Lista interogarilor simple implementate, fiecare avand cel putin 2 JOIN-uri:
-		•	Consultatii si Medici cu Specialitati.
-		•	Pacienti si Servicii Medicale.
-		•	Medici cu Specialitati si Pacienti.
-		•	Consultatii recente si costuri.
-		•	Servicii utilizate de Pacienti.
-		•	Pacienti si numar consultatii.
+		Lista interogarilor simple implementate, fiecare avand cel putin 2 JOIN-uri:
+			•	Consultatii si Medici cu Specialitati.
+			•	Pacienti si Servicii Medicale.
+			•	Medici cu Specialitati si Pacienti.
+			•	Consultatii recente si costuri.
+			•	Servicii utilizate de Pacienti.
+			•	Pacienti si numar consultatii.
 
 7.	Interogari complexe
-	Lista interogarilor complexe implementate, fiecare avand cel putin 2 subcereri:
-		•	Pacienti cu mai mult de X consultatii, unde X este parametrul variabil.
-		•	Medici cu consultatii peste media costurilor.
-•	Consultatii si servicii sub media costurilor.
-•	Pacienti care folosesc mai mult de 3 servicii unice.
+		Lista interogarilor complexe implementate, fiecare avand cel putin 2 subcereri:
+			•	Pacienti cu mai mult de X consultatii, unde X este parametrul variabil.
+			•	Medici cu consultatii peste media costurilor.
+			•	Consultatii si servicii sub media costurilor.
+			•	Pacienti care folosesc mai mult de 3 servicii unice.
 
 
